@@ -1,5 +1,3 @@
-
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -22,13 +20,12 @@ export default {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      'main-bg': '#f6f4ee', // Add your main background color here
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
-    
-    
     extend: {
       spacing: {
         '128': '32rem',
